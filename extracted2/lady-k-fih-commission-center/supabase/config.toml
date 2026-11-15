@@ -1,0 +1,9 @@
+[functions.submit-request]
+verify_jwt = false
+[functions.send-quote]
+verify_jwt = true
+[functions.view-quote]
+verify_jwt = false
+
+[functions.upload-reference]
+verify_jwt = false
